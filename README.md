@@ -25,14 +25,6 @@ A RCNN based Image Classifier used to classify Aadhaar Card, Pan card and any ot
 
 - The operations team manually verified several images using the classifier to ensure that the right documents were classified.
 
-## Getting started
-- Pass the image path to the PAN validate function
-- The image will fed to the model resposible for classification
-- If the image is a PAN card then we will proceed towards the OCR stage.
-- 'Name', 'Father name', 'PAN NO', 'Date of Birth' will be extracted from the image.
-- 'PAN NO' will be validated using regular expression.
-- If the 'PAN NO' is invalid then result will be INVALID PAN CARD with a confidence less than 50%.
-- If the document passed is not a pan card then the result will be NOT A PAN CARD with a confidence of 0%. 
 
 ## Impact of the project
 - This project was packaged into a ready to use library which helped save more 50 hours of manual customer document verification. This helped the operations team to focus on other high priority tasks.
