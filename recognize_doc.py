@@ -10,7 +10,6 @@ import tempfile
 import sys
 import sys
 from aadhaar_card.aadhaar_object import detect_features  
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/home/shiva/work/gcp_cred/demo.json'
 global confidence
 confidence={
     "result":"Invalid Aadhaar Card",
