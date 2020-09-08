@@ -1,5 +1,5 @@
-# Document_verification_IDFC
-## Visual_Recognition_IDFC
+# Document_verification
+## Visual_Recognition
 DOCUMENT VALIDATION:
 
 A RCNN based Image Classifier used to classify Aadhaar Card, Pan card and any other document. This model was trained on a dataset of Aadhaar Cards, PAN cards and Other documents like gas bills, voter ID cards, driving licence etc. collected from customer data. The model was trained over several variations of the images such as blurred or tilted images. The model has an accuracy of 94%. 
