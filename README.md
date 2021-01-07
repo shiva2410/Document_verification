@@ -1,4 +1,5 @@
 # Document_verification
+Medium Blog - https://medium.com/swlh/document-verification-for-kyc-with-ai-ocr-computer-vision-tool-3485d85d75f6
 ## Visual_Recognition
 DOCUMENT VALIDATION:
 
