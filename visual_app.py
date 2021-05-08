@@ -51,7 +51,7 @@ def api_root():
 			validity=pan_card_validation(saved_path)
 			return validity
 		if doc_type=='voterid':
-			return "| Waiting for Kritika's Code |"
+			return "| Waiting for Code |"
 		else:
 			return "Invalid Document type"
 	else:
